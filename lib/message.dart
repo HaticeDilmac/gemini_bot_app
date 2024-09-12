@@ -22,7 +22,7 @@ class _MessageWidgetState extends State<MessageWidget> {
           decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(10),
               color: widget.isFromUser
-                  ? Theme.of(context).colorScheme.primary
+                  ? Color.fromARGB(255, 128, 194, 248)
                   : Theme.of(context).colorScheme.secondary),
           child: Column(
             children: [MarkdownBody(data: widget.text)],
